@@ -1,4 +1,5 @@
 #!/data/data/com.termux/files/usr/bin/bash 
+# change above to #!/usr/bin/env bash for regular Linux installations
 [ -z "$channel" ] && channel="#linux"
 [ -z "$server" ] && server="irc.libera.chat"
 [ -z "$port" ] && port="6667" #Plain text port
